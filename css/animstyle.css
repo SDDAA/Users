@@ -1,0 +1,82 @@
+/*Блоки программ*/
+#animblock1, #animblock2, #animblock3{
+	float: left;
+	margin: 0px 0px 0px 210px;
+	padding: 0px;
+	border-radius: 20px;
+	background-color: white;
+	opacity: .9;
+	height: 300px;
+	width: 350px;
+}
+#animblock1{
+	border: 10px solid #00BFFF;
+}
+#animblock2{
+	border: 10px solid #FF6347;
+}
+#animblock3{
+	border: 10px solid #00FA9A;
+}
+
+/*Линия hr*/
+hr {
+border: 0;
+height: 1px;
+background: black;
+opacity:0.3;
+}
+
+/*Текст*/
+.cost{
+	font-family: system-ui;
+}
+.ops{
+	font-family: CENTURY GOTHIC;
+	font-size: 14px;
+}
+h1, h3{
+	font-family: CURSIVE;
+}
+/*Навигация*/
+nav{
+	width:1280px;
+	margin: 20 auto;
+	font-size: 20px;
+	opacity: .9;
+}
+nav:before{
+	content:"";
+	display:block;
+	height: 80px;
+	width:100%;
+	background: orange;
+	position:absolute;
+	left:0;
+	z-index:-1;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:0;
+	height:80px;
+	padding-left: 0;
+}
+ul li{
+	float:left;
+	list-style-type: none;
+}
+ul li a{
+	color:#fff;
+	display:block;
+	height:80px;
+	padding:0 30px;
+	text-text-transform:uppercase;
+	text-decoration:none;
+	line-height:80px;
+}
+ul li a:hover{
+	background:#d34d43;
+	border: 1px dashed yellow;
+}
+

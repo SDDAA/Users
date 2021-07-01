@@ -1,0 +1,135 @@
+/*Кнопка*/
+.button-item {
+  padding-bottom: 2em;
+  float:none;
+    margin:675px 25% 0 44%;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  color: #4A4A4A;
+  display: inline-block;
+}
+.btn {
+	float:none;
+	padding: 1em 3em;
+	border: 3px solid #4A90E2;
+	transition: all 300ms ease;
+	box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.btn:before {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 100%;
+  background: #4A90E2;
+  top: 0;
+  left: auto;
+  right: 0;
+  z-index: -1;
+  transition: all 300ms ease;
+}
+.btn:hover {
+  color: white;
+  box-shadow: none;
+  background: #4A90E2;
+}
+.btn:hover:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #4A90E2;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/*Блоки программ*/
+#mainblock1, #mainblock2, #mainblock3{
+	float: left;
+	border-top: 6px  solid green;
+	border-bottom: 5px solid red;
+	margin: 0px 0px 0px 210px;
+	padding: 0px;
+	border-radius: 5px;
+	background-color: white;
+	opacity: .9;
+}
+#mainblock1{
+	height: 470px;
+	width: 350px;
+}
+#mainblock2{
+	height: 620px;
+	width: 350px;
+}
+#mainblock3{
+	height: 545px;
+	width: 350px;
+}
+
+/*Линия hr*/
+hr {
+border: 0;
+height: 1px;
+background: black;
+opacity:0.3;
+}
+
+/*Текст*/
+.cost{
+	font-family: system-ui;
+}
+.ops{
+	font-family: CENTURY GOTHIC;
+	font-size: 14px;
+}
+h1, h3{
+	font-family: CURSIVE;
+}
+/*Навигация*/
+nav{
+	border: 55px;
+	width:1280px;
+	margin: 20 auto;
+	font-size: 20px;
+	opacity: .9;
+}
+nav:before{
+	content:"";
+	display:block;
+	height: 80px;
+	width:100%;
+	background: orange;
+	position:absolute;
+	left:0;
+	z-index:-1;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:0;
+	height:80px;
+	padding-left: 0;
+	
+}
+ul li{
+	float:left;
+	list-style-type: none;
+}
+ul li a{
+	color:#fff;
+	display:block;
+	height:80px;
+	padding:0 30px;
+	text-text-transform:uppercase;
+	text-decoration:none;
+	line-height:80px;
+}
+ul li a:hover{
+	background:#d34d43;
+	border: 1px dashed yellow;
+}
