@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Добавление</title>
+	<title>Таблица пользователей</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
